@@ -1,19 +1,27 @@
-Sneaky Snake
+Sneaky Snake Game
 
-Sneaky Snake is a classic Snake game implemented in Python using the Turtle module.
-Overview
-
-Sneaky Snake is a simple and addictive game where players control a snake that grows in length as it eats food items. The goal is to guide the snake to consume as much food as possible without colliding with the walls of the game area or with its own tail.
-Key Features:
-
-  Snake Movement: Players control the direction of the snake using the arrow keys.
-  Food Items: Food items randomly appear on the game screen, and the snake grows longer each time it eats one.
-  Score Tracking: The game keeps track of the player's score, increasing it each time the snake eats food.
-  Game Over: The game ends if the snake collides with the walls or with itself. A "Game Over" message is displayed, along with the final score.
+Welcome to Sneaky Snake! This is a simple yet addictive game where you control a snake to eat food and grow longer. Be careful not to run into the walls or your own tail, or it's game over!
 
 How to Play:
 
-  Run the game using python main.py.
-  Control the snake's movement using the arrow keys.
-  Guide the snake to eat as much food as possible without colliding with obstacles.
-  Try to achieve the highest score before the game ends.
+  Use the arrow keys (Up, Down, Left, Right) to control the direction of the snake.
+  Guide the snake to eat the colored food dots that appear on the screen.
+  Each time the snake eats food, it will grow longer and you'll earn points.
+  Avoid running into the walls or the snake's own tail, as this will end the game.
+
+Features:
+
+  Scoreboard: Keep track of your current score and highest score achieved.
+  Game Over: When the snake collides with the wall or itself, the game ends, and you can restart by closing the window and rerunning the code.
+
+Code Structure:
+
+  snake.py: Contains the Snake class responsible for controlling the snake's movement and behavior.
+  food.py: Defines the Food class to manage the appearance and refreshment of food items on the screen.
+  scoreboard.py: Implements the Scoreboard class to display and update scores during gameplay.
+  data.txt: Stores the highest score achieved by the player.
+
+Requirements:
+
+  Python 3.x
+  Turtle module
